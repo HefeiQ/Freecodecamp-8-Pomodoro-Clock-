@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset = "UTF-8"/>
+  <link rel = "stylesheet" href = "style.css"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <script type = "text/javascript" 
+          src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ </head>
+ 
+ <body>
+  <div id = "mainDiv" class = "container-fluid text-center">
+   <h1 id = "header">FreeCodeCamp</h1>
+   <div id = "break" class = "col-xs-1 col-xs-offset-5">
+    <p>BREAK LENGTH</p>
+   </div>
+   <div id = "session" class = "col-xs-1" >
+    <p>SESSION LENGHT</p>
+   </div>
+   <div class = "col-xs-2 col-xs-offset-5">
+    <div class = "col-xs-6">
+     <button class = "text_button" onclick = 'clickDecrease("inputBreak")'>-</button>
+	 <input id = "inputBreak" type = "text" value = "5" disabled="disabled"/>
+	 <button class = "text_button" onclick = 'clickIncrease("inputBreak")'>+</button>
+    </div>
+    <div class = "col-xs-6">
+     <button class = "text_button" onclick = 'clickDecrease("inputSession")'>-</button>
+	 <input id = "inputSession" type = "text" value = "25" disabled="disabled"/>
+	 <button class = "text_button" onclick = 'clickIncrease("inputSession")'>+</button>
+    </div>
+   </div>
+   <div id = "showClock" class = "showClockCircle col-xs-offset-5" onclick = "clickClock()">
+     <p id = "showClock_p1">Session</p>
+	 <p id = "showClock_p2">25</p>
+   </div>
+  </div>
+ <script src = "script.js"></script>
+ </body>
+</html>

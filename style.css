@@ -1,0 +1,61 @@
+
+html, body {
+	height: 100%;
+}
+#mainDiv {
+	height: 100%;
+	margin: 0;
+	padding-top: 3%;
+	background-color: DimGray;
+}
+#header {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	font-size: 70px;
+	margin-bottom: 2%;
+}
+#break {
+	color: white;
+}
+#session {
+	color: white;
+}
+button {
+	background-color: transparent;
+	border: none;
+}
+.text_button {
+	font-size: 20px;
+	color:white;
+}
+input[type='text'] {
+	width: 50%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+}
+
+.showClockCircle {
+	width: 16%;
+    height:0;
+    padding-bottom: 16%; 
+    border-radius: 50%;
+    border: 2px solid #9ACD32;
+    /*behavior: url(PIE.htc); IE8 */
+}
+
+#showClock {
+	margin-top: 18%;	
+}
+#showClock_p1 {
+	color: #9ACD32;
+	font-size: 50px;
+	margin-top: 18%;
+}
+#showClock_p2 {
+	color: #9ACD32;
+	font-size: 50px;
+	margin-top: 18%;
+}
